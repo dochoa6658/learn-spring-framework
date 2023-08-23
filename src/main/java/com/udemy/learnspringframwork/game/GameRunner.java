@@ -1,11 +1,16 @@
 package com.udemy.learnspringframwork.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
+@Component
 public class GameRunner {
 
-	private MarioGame game;
+	@Autowired
+	private GamingConsole game;
 
 	public void run() {
 		game.up();

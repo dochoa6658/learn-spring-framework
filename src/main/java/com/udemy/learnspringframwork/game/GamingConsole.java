@@ -1,4 +1,4 @@
-package com.udemy.learnspringframwork;
+package com.udemy.learnspringframwork.game;
 
 public interface GamingConsole {
 	void up();

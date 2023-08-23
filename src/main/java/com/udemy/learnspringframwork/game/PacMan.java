@@ -1,22 +1,24 @@
 package com.udemy.learnspringframwork.game;
 
-import com.udemy.learnspringframwork.GamingConsole;
-
 public class PacMan implements GamingConsole {
 
 	public void up() {
+		System.out.println("pac");
 		System.out.println("up");
 	}
 
 	public void down() {
+		System.out.println("pac");
 		System.out.println("down");
 	}
 
 	public void left() {
+		System.out.println("pac");
 		System.out.println("left");
 	}
 
 	public void right() {
+		System.out.println("pac");
 		System.out.println("right");
 	}
 }
